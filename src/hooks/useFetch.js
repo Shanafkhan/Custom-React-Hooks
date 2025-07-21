@@ -19,7 +19,7 @@ export function useFetch(fetchFn,initialValue) {
   return {
     isFetching,
     error,
-    fetchData
+    fetchData,
+    setFetchData
   }
-
 }
